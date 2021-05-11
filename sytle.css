@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    height: 100px;
+    background: #fff;
+    
+}
+#viewfinder {
+    text-align: right;
+}
+
+input {
+    margin: 2px;
+    box-shadow: black 1px;
+    border-radius: 3px;
+    font-size: 20px;
+
+}
+
+input[type="text"] {
+    width: calc(100% - 8px);
+    height: 60px;
+}
+
+input[type="button"] {
+    width: 100px;
+    height: 60px;
+    transition: ease 0.2;
+    cursor: pointer;
+}
+/* Vai selecionar o elemento dentro de uma posição espeficifica*/
+#calculate {
+    box-shadow: 2px 0 10px rgb(87, 83, 83);
+}
+div#calculate div {
+    display: flex;
+}
+
+div#room input:nth-child(1){
+    background: #f71212
+}
+
+div#room input:nth-child(3){
+    background: #33f52c
+}
+
+input[type="button"]:hover {
+    background: #b4b4b4;
+}
